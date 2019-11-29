@@ -14,7 +14,8 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
         }
     }
 }
@@ -27,5 +28,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation "com.github.parse-community.Parse-SDK-Android:parse:1.21.0"
-    implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.6'
+    implementation "com.github.Shashank02051997:FancyToast-Android:0.1.6"
 }
